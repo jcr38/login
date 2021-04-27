@@ -1,0 +1,30 @@
+:root{
+    --err : rgb(228, 119, 119);
+    --suc : rgb(127, 219, 127);
+    --but : rgb(89, 89, 199);
+}
+
+.flex-c-jc{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.linker{
+    background-color: var(--but);
+    padding: 5px 15px;
+    text-decoration: none;
+    color: white;
+    margin: 10px auto;
+}
+
+.error{
+    background-color: red;
+    padding: 5px 15px;
+    text-decoration: none;
+    color: white;
+    margin: 10px auto;
+    border-radius: 5px;
+}
